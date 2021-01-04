@@ -11,7 +11,7 @@ module.exports = {
   name: 'reload',
   description: 'Reload sebuah perintah',
   args: true,
-  usage: '<command directory>',
+  usage: '<command directory>', // ../folderKategori/namaFile.js
   execute (message, args) {
     const { channel, client, guild, member } = message
     const dir = args.join(' ')
